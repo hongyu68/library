@@ -1,0 +1,5 @@
+@use 'mixins/mixins' as *;
+
+html {
+  @include t-overflow(1);
+}

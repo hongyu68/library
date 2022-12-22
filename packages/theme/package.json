@@ -1,0 +1,39 @@
+{
+  "name": "@library/theme",
+  "version": "0.0.1-dev",
+  "private": true,
+  "description": "样式",
+  "author": "zhouhongyu",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.css",
+  "unpkg": "index.css",
+  "style": "index.css",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "gulp --require sucrase/register/ts"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "sass": "^1.43.4"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "library",
+  "version": "0.0.1-dev",
+  "description": "description",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.mjs"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./es/*.mjs": "./es/*.mjs",
+    "./es/*": "./es/*.mjs",
+    "./lib/*.js": "./lib/*.js",
+    "./lib/*": "./lib/*.js",
+    "./*": "./*"
+  },
+  "publishConfig": {
+    "registry": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  },
+  "dependencies": {
+    "vue-demi": "^0.13.11"
+  }
+}

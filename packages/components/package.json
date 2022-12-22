@@ -1,0 +1,17 @@
+{
+  "name": "@library/components",
+  "version": "0.0.1-dev",
+  "private": true,
+  "description": "description",
+  "author": "zhouhongyu",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "module": "index.ts",
+  "unpkg": "index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

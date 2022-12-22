@@ -1,0 +1,8 @@
+#
+packages:
+  - 'packages/**'
+  - '!packages/__mocks__'
+  - '!**/__tests__/**'
+  - examples
+  - play
+  - stories

@@ -1,0 +1,13 @@
+{
+  "name": "@library/utils",
+  "version": "0.0.1-dev",
+  "description": "utils",
+  "private": true,
+  "keywords": [
+    "utils"
+  ],
+  "author": "zhouhongyu",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.ts"
+}

@@ -1,0 +1,11 @@
+.DS_Store
+lerna-debug.log
+
+*/**/node_modules
+*/**/dist
+*/**/__tests__
+node_modules
+dist
+pnpm-lock.yaml
+!.*
+
